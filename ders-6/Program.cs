@@ -1,6 +1,6 @@
 using System;
 
-namespace altinciBolum
+namespace ilkprojemiz
 {
   internal class Program
   {
