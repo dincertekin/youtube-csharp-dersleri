@@ -23,7 +23,7 @@ namespace altinciBolum
         }
         finally
         {
-          Console.WriteLine("Tum kodlar yurutuldu, her sey tamam. Finally calisti. ")|
+          Console.WriteLine("Tum kodlar yurutuldu, her sey tamam. Finally calisti.");
         }
       }
     }
