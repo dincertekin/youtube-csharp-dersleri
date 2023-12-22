@@ -4,7 +4,7 @@ namespace ilkprojemiz
 {
   internal class Program
   {
-    static void Main(String[] args)
+    static void Main(string[] args)
     {
       // 0'dan 99'a kadar saydıralım.
       for (int i = 0; i 100; i++)
