@@ -10,7 +10,7 @@
 7.Bölüm: [Windows Forms](https://www.youtube.com/watch?v=PbNzPoQP2Co)  
 8.Bölüm: [Forms İle Öğrenci Yönetim Sistemi](https://www.youtube.com/watch?v=IMK_1SctnAE)  
 
-# C# için Visual Studio 2022 Kurulumu
+## C# için Visual Studio 2022 Kurulumu
 
 Eğer Windows işletim sisteminde C# ve Visual Studio 2022'yi nasıl kuracağınızı bilmiyorsanız aşağıdaki adımları takip edebilirsiniz.
 
