@@ -9,7 +9,7 @@ namespace csharpforms
 
         private void girisBtn_Click(object sender, EventArgs e)
         {
-            if (kullaniciAdiText. Text == "dincer")
+            if (kullaniciAdiText.Text == "dincer")
             {
                 if (parolaText.Text == "123456")
                 {
