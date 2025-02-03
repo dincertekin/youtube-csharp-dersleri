@@ -17,14 +17,14 @@ namespace ilkprojemiz
         {
           int toplam = a + b;
           Console.WriteLine(toplam);
-        } catch (Exception ex)
-        {
+        }
+      } catch (Exception ex)
+      {
           Console.WriteLine(ex.ToString());
-        }
-        finally
-        {
-          Console.WriteLine("Tum kodlar yurutuldu, her sey tamam. Finally calisti.");
-        }
+      }
+      finally
+      {
+        Console.WriteLine("Tum kodlar yurutuldu, her sey tamam. Finally calisti.");
       }
     }
   }
