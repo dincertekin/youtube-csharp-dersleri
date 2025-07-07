@@ -1,4 +1,5 @@
 # C# Dersleri
+
 [YouTube oynatma listemiz](https://www.youtube.com/playlist?list=PLi2glt6IPZ0Vgp-KtflZvYiARqjlNDTGn)deki tüm ders videolarının kodları tek repo'da! :)
 
 1.Bölüm: [Visual Studio 2022 Kurulumu](https://www.youtube.com/watch?v=6e_e0nLTtgk)  
@@ -10,7 +11,7 @@
 7.Bölüm: [Windows Forms](https://www.youtube.com/watch?v=PbNzPoQP2Co)  
 8.Bölüm: [Forms İle Öğrenci Yönetim Sistemi](https://www.youtube.com/watch?v=IMK_1SctnAE)  
 
-## C# için Visual Studio 2022 Kurulumu (Windows)
+## C# için Visual Studio 2022 Nasıl Kurulur? (Windows İçin)
 
 Eğer Windows işletim sisteminde C# ve Visual Studio 2022'yi nasıl kuracağınızı bilmiyorsanız aşağıdaki adımları takip edebilirsiniz.
 
