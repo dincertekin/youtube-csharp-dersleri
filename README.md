@@ -1,70 +1,52 @@
-# C# Programlama Dersleri ve Uygulamaları
+# C# Dersleri
 
-![.NET Versiyonu](https://img.shields.io/badge/.NET-6.0%20%2F%208.0-purple?logo=.net&logoColor=white)
-![Lisans](https://img.shields.io/badge/Lisans-MIT-green)
-[![YouTube Kanalı](https://img.shields.io/badge/YouTube-Kanala%20Git-red?logo=youtube&logoColor=white)](https://www.youtube.com/@dincertekin)
+Bu depo, YouTube kanalımdaki C# eğitim serisinde yazdığım kodları içeriyor. Temel konularla başlayıp Windows Forms masaüstü uygulamalarına kadar ilerliyor. Videoları izlerken buradaki dosyalara bakabilir, kendi bilgisayarınızda açıp deneyebilirsiniz.
 
-Bu depo, YouTube kanalımda yayınladığım sıfırdan ileri seviyeye C# eğitim serisinin ve pratik masaüstü uygulamalarının kaynak kodlarını içermektedir. Videoları izlerken bu kodlardan yararlanabilir, kendi bilgisayarınızda test edebilirsiniz.
+Oynatma listesi: [C# Eğitimi](https://www.youtube.com/playlist?list=PLi2glt6IPZ0Vgp-KtflZvYiARqjlNDTGn)
 
-📺 **[C# Eğitimi Oynatma Listesine Buradan Ulaşabilirsiniz](https://www.youtube.com/playlist?list=PLi2glt6IPZ0Vgp-KtflZvYiARqjlNDTGn)**
+Her dersin kodu kendi klasöründe (`ders-1`, `ders-2`, ...). İlk altı ders konsol uygulaması (`Program.cs`), son iki ders ise Windows Forms örneği (`Form1.cs`). Kodların içindeki yorum satırlarında konuyu adım adım anlatmaya çalıştım.
 
----
+## Dersler
 
-## 📚 Ders Müfredatı ve Kaynak Kodlar
+| Konu | Video | Kod |
+| :--- | :--- | :--- |
+| 1. Visual Studio Kurulumu ve İlk Program | [Video](https://www.youtube.com/watch?v=6e_e0nLTtgk) | [ders-1](./ders-1) |
+| 2. Veri Türleri ve Değişkenler | [Video](https://www.youtube.com/watch?v=9ghunELPZ0M) | [ders-2](./ders-2) |
+| 3. Koşullandırma ve Operatörler | [Video](https://www.youtube.com/watch?v=dcY_iSt0Hlg) | [ders-3](./ders-3) |
+| 4. Döngüler ve Diziler | [Video](https://www.youtube.com/watch?v=wK-61X75ydk) | [ders-4](./ders-4) |
+| 5. Sınıflar | [Video](https://www.youtube.com/watch?v=QfFy_NfXybI) | [ders-5](./ders-5) |
+| 6. Hata Yakalama | [Video](https://www.youtube.com/watch?v=QOcqVkMedHs) | [ders-6](./ders-6) |
+| 7. Windows Forms | [Video](https://www.youtube.com/watch?v=PbNzPoQP2Co) | [ders-7](./ders-7) |
+| 8. Forms ile Öğrenci Yönetim Sistemi | [Video](https://www.youtube.com/watch?v=IMK_1SctnAE) | [ders-8](./ders-8) |
 
-Eğitim serimiz temel C# mantığından başlayarak Windows Forms uygulamalarına doğru ilerlemektedir. İlgili dersin videosuna ve kod klasörüne tablodan erişebilirsiniz:
+Not: 7 ve 8. derslerde her klasörde yalnızca `Form1.cs` dosyası var. Arayüzü (butonlar, metin kutuları vb.) videolarda Visual Studio tasarımcısıyla oluşturuyoruz; bu dosyalar kodun mantığını göstermek içindir.
 
-| Bölüm / Konu | Eğitim Videosu | Kaynak Kodlar |
-| :--- | :---: | :---: |
-| 1. Bölüm: Visual Studio 2022 Kurulumu | [İzle](https://www.youtube.com/watch?v=6e_e0nLTtgk) | - |
-| 2. Bölüm: Veri Türleri ve Değişkenler | [İzle](https://www.youtube.com/watch?v=9ghunELPZ0M) | [Kodlar](./) |
-| 3. Bölüm: Koşullandırma ve Operatörler | [İzle](https://www.youtube.com/watch?v=dcY_iSt0Hlg) | [Kodlar](./) |
-| 4. Bölüm: Döngüler ve Diziler | [İzle](https://www.youtube.com/watch?v=wK-61X75ydk) | [Kodlar](./) |
-| 5. Bölüm: Sınıflar | [İzle](https://www.youtube.com/watch?v=QfFy_NfXybI) | [Kodlar](./) |
-| 6. Bölüm: Hata Yakalama | [İzle](https://www.youtube.com/watch?v=QOcqVkMedHs) | [Kodlar](./) |
-| 7. Bölüm: Windows Forms | [İzle](https://www.youtube.com/watch?v=PbNzPoQP2Co) | [Kodlar](./) |
-| 8. Bölüm: Forms İle Öğrenci Yönetim Sistemi | [İzle](https://www.youtube.com/watch?v=IMK_1SctnAE) | [Kodlar](./) |
+## Çalıştırmak için
 
----
+Windows'ta **Visual Studio 2022** (ücretsiz Community sürümü yeterli) kullanabilirsiniz. Kurulum sırasında **".NET masaüstü geliştirme" (.NET desktop development)** iş yükünü seçmeyi unutmayın; Windows Forms örnekleri bununla çalışıyor.
 
-## 🚀 Başlangıç ve Kurulum
-
-Bu depodaki kodları kendi bilgisayarınızda açmak ve çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
-
-### 1. Visual Studio 2022 Kurulumu (Windows)
-
-1. [Visual Studio Resmi Web Sitesi](https://visualstudio.microsoft.com/downloads/)'ne gidin.
-2. Community seçeneğinin altında bulunan **Ücretsiz İndir** düğmesine tıklayın.
-3. İndirilen kurulum dosyasını çalıştırın ve ekrandaki yönergeleri onaylayarak ilerleyin.
-4. Karşınıza çıkan **İş Yükleri (Workloads)** ekranında, C# geliştirmesi yapabilmek için **".NET masaüstü geliştirme" ( .NET desktop development)** seçeneğini mutlaka işaretleyin.
-5. Sağ alttaki **Yükle** butonuna tıklayarak kurulumun tamamlanmasını bekleyin.
-
-### 2. Repoyu Bilgisayarınıza İndirin
-
-Kodları yerel bilgisayarınıza çekmek için terminale şu komutları yazabilirsiniz:
+Depoyu indirmek için:
 
 ```shell
 git clone https://github.com/dincertekin/youtube-csharp-dersleri.git
 cd youtube-csharp-dersleri
-
 ```
 
-*Not: Klonlama işleminden sonra `.sln` uzantılı çözüm dosyasını Visual Studio 2022 ile açarak projeleri inceleyebilirsiniz.*
+Bu klasörlerde hazır bir proje dosyası (`.csproj`/`.sln`) yoktur; her klasörde videoda yazdığımız kod dosyası bulunur. Bir dersi çalıştırmak için Visual Studio'da yeni bir proje açıp ilgili dosyanın içeriğini yapıştırabilirsiniz.
 
----
+Konsol derslerini (1-6) Visual Studio olmadan, yalnızca [.NET SDK](https://dotnet.microsoft.com/download) ile de deneyebilirsiniz. Örneğin:
 
-## 🤝 Katkıda Bulunun (Contributing)
+```shell
+dotnet new console -o deneme
+cp ders-2/Program.cs deneme/Program.cs
+cd deneme
+dotnet run
+```
 
-Eğitim serisindeki projelere yeni özellikler eklemek, hataları düzeltmek veya kodları optimize etmek isterseniz katkılarınızı bekliyorum!
+## Katkı
 
-1. Bu repoyu fork edin.
-2. Yeni bir özellik için branch açın (`git checkout -b yeni-ozellik`).
-3. Değişikliklerinizi commit edin (`git commit -m 'Yeni bir özellik eklendi'`).
-4. Branch'inizi push edin (`git push origin yeni-ozellik`).
-5. Bir **Pull Request (PR)** oluşturun.
+Bir hata görürseniz ya da bir örneği iyileştirmek isterseniz issue açabilir veya pull request gönderebilirsiniz.
 
----
+## Lisans
 
-## 📜 Lisans
-
-Bu proje MIT Lisansı ile lisanslanmıştır. Detaylar için [LICENSE](./LICENSE) dosyasına göz atabilirsiniz.
+MIT. Ayrıntılar için [LICENSE](./LICENSE) dosyasına bakın.

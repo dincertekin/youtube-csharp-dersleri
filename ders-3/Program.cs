@@ -6,7 +6,7 @@ namespace ilkprojemiz
   {
     static void Main(string[] args)
     {
-      // Operatörler: +, -, /, -, ^, %
+      // Aritmetik operatörler: + (toplama), - (çıkarma), * (çarpma), / (bölme), % (mod/kalan)
       int x = 5;
       int y = 10;
       if (x + y > 12)

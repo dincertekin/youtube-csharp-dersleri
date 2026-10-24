@@ -22,7 +22,10 @@ namespace WinFormsApp1
 
         private void ekleBtn_Click(object sender, EventArgs e)
         {
-            if (ogrenciAdiText.Text.Length > 0 && ogrenciSoyadiText.Text.Length > 0 && ogrenciErkek.Checked || ogrenciKadin.Checked)
+            // Ad ve soyad dolu OLMALI, ayrıca cinsiyetlerden biri seçili OLMALI.
+            // Cinsiyet kontrolünü parantez içine alıyoruz; çünkü && operatörü || operatöründen önce çalışır.
+            // Parantez olmasaydı, sadece "Kadın" seçili olunca ad/soyad boş olsa bile kayıt yapılırdı.
+            if (ogrenciAdiText.Text.Length > 0 && ogrenciSoyadiText.Text.Length > 0 && (ogrenciErkek.Checked || ogrenciKadin.Checked))
             {
                 ogrenciTablosu.Rows.Add(ogrenciAdiText.Text, ogrenciSoyadiText.Text, (ogrenciErkek.Checked) ? ("Erkek") : ("Kadın"));
                 MessageBox.Show("Öğrenci kaydı yapıldı!");

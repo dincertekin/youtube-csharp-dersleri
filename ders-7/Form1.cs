@@ -9,8 +9,10 @@ namespace csharpforms
 
         private void girisBtn_Click(object sender, EventArgs e)
         {
+            // Önce kullanıcı adını kontrol ediyoruz.
             if (kullaniciAdiText.Text == "dincer")
             {
+                // Kullanıcı adı doğruysa bir de parolaya bakıyoruz.
                 if (parolaText.Text == "123456")
                 {
                     MessageBox.Show("Başarıyla giriş yaptınız!", "Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -20,10 +22,11 @@ namespace csharpforms
                 } else
                 {
                     MessageBox.Show("Hatalı bir şifre girdiniz! Lütfen kontrol edin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                } else
-                {
-                    MessageBox.Show("Hatalı bir kullanıcı adı girdiniz! Lütfen kontrol edin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+            } else
+            {
+                // Bu else dıştaki if'e aittir: kullanıcı adı "dincer" değilse buraya girer.
+                MessageBox.Show("Hatalı bir kullanıcı adı girdiniz! Lütfen kontrol edin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

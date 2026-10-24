@@ -1,0 +1,11 @@
+# Visual Studio / .NET derleme çıktıları
+bin/
+obj/
+
+# Visual Studio kullanıcı dosyaları
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/

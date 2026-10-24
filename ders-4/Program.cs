@@ -7,7 +7,7 @@ namespace ilkprojemiz
     static void Main(string[] args)
     {
       // 0'dan 99'a kadar saydıralım.
-      for (int i = 0; i 100; i++)
+      for (int i = 0; i < 100; i++)
       {
         Console.WriteLine(i);
       }
